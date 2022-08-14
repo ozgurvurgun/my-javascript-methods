@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="math-methods.js"></script>
+    <title>Math Methods</title>
+  </head>
+  <body>
+    <h2>factorial</h2>
+    <h4>5! ?</h4>
+    <h5 id="factorial"></h5>
+    <script>
+      document.getElementById("factorial").innerHTML = myMath.factorial(5);
+    </script>
+    <hr />
+
+    <h2>Absolute Value</h2>
+    <h4>|-10|</h4>
+    <h5 id="abs"></h5>
+    <script>
+      document.getElementById("abs").innerHTML = myMath.absolute(-10);
+    </script>
+    <hr />
+
+    <h2>Mod</h2>
+    <h4>167 mod 57</h4>
+    <h5 id="mod"></h5>
+    <script>
+      document.getElementById("mod").innerHTML = myMath.mod(167, 57);
+    </script>
+    <hr />
+  </body>
+</html>
