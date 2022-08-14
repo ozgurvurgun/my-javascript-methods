@@ -38,4 +38,35 @@ var myMath = {
     }
     return par1;
   },
+  //largest number
+  max: function () {
+    var i = 0,
+      max = -Infinity;
+    for (i; i < arguments.length; i++) {
+      if (arguments[i] > max) {
+        max = arguments[i];
+      }
+    }
+    return max;
+  },
+  //smallest number
+  min: function () {
+    var i = 0,
+      min = Infinity;
+    for (i; i < arguments.length; i++) {
+      if (arguments[i] < min) {
+        min = arguments[i];
+      }
+    }
+    return min;
+  },
+  //sum
+  sum: function () {
+    var i = 0,
+      result = 0;
+    for (i; i < arguments.length; i++) {
+      result += arguments[i];
+    }
+    return result;
+  },
 };
