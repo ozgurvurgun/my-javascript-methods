@@ -32,8 +32,7 @@ var myMath = {
       if (helper < 0) {
         break;
       }
-      if (helper == 0) {
-        par1 = 0;
+      if (par1 == 0) {
         break;
       }
     }
